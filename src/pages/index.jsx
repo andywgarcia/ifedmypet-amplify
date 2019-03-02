@@ -68,40 +68,27 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hello, <br /> I'm Schmitty.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>Here are the instructions for how to best serve me.</Subtitle>
       </Hero>
       <Projects offset={1}>
-        <Title>Projects</Title>
+        <Title>The Basics</Title>
         <ProjectsWrapper>
-          <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
-          >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+          <ProjectCard title="Food" bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)">
+            I will need a spoonful of wet food (about 1/6 of a can) + 1/4 cup of dry food twice a day. I usually eat
+            around 7:30am and 7pm.
           </ProjectCard>
-          <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-          >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+          <ProjectCard title="Potty" bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)">
+            I will leave a mess for you to clean up in the bathroom box. Please scoop it out. It is flushable.
           </ProjectCard>
-          <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-          >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+          <ProjectCard title="Love" bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)">
+            I need to love one someone for a bit each day. I would like to sit on a blanket on your lap. The white fuzzy
+            side up please.
           </ProjectCard>
-          <ProjectCard
-            title="Eagle"
-            link="https://www.behance.net/gallery/38068151/Eagle"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
-          >
-            A fantasy image manipulation relocating the habitat of wild animals.
+          <ProjectCard title="Play" bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)">
+            Sitting around all day isn't necessarily a dream. I like to chase the rainbow string and the one with the
+            mouse on the end. But my true favorite is chasing a hair tie when it is snapped like a rubber band.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -110,24 +97,46 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            I was adopted on August 19th, 2017 when I was about 2 years old from a cafe called the Seattle
+            Meowtrapolitan.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You make me
-          your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids want to
-          know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all right?
+          I generally enjoy sleeping. But when I am not sleeping, I like to eat. If I find some time before or after
+          eating and sleeping, then I like to chase hair ties, watch birds, and sit on everyone's lap. Loud noises tend
+          to scare me quite a bit, but I am always friendly with new people.
         </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            You can contact my vet at <a href="https://www.mygreenwoodvet.com/">Greenwood Animal Hospital</a> during
+            normal business hours at <a href="tel:206-528-3838">(206) 528-3838</a>. The address is
+            <ul style={{ listStyle: 'none' }}>
+              <li>10000 Aurora Ave. N.</li>
+              <li>Unit # 8</li>
+              <li>Seattle, WA 98133</li>
+            </ul>
+          </ContactText>
+          <ContactText>
+            An emergency vet is available at <a href="https://bluepearlvet.com/seattle-wa/">BluePearl Pet Hospital</a>{' '}
+            24/7. You can reach them at <a href="tel:206-364-1660">(206) 364-1660</a>. The address is
+            <ul style={{ listStyle: 'none' }}>
+              <li>13240 Aurora Ave. N.</li>
+              <li>Seattle, WA 98133</li>
+            </ul>
+          </ContactText>
+          <ContactText>
+            If you need to get a hold of me, you can contact me by{' '}
+            <ul>
+              <li>
+                <a href="mailto:andy.w.garcia@gmail.com">Email</a>: andy.w.garcia@gmail.com
+              </li>
+              <li>
+                <a href="tel:111-111-1111">Phone</a>: (111) 111-1111
+              </li>
+            </ul>
           </ContactText>
         </Inner>
         <Footer>
