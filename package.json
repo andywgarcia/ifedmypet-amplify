@@ -5,6 +5,8 @@
   "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
   "license": "MIT",
   "dependencies": {
+    "aws-amplify": "^1.1.19",
+    "aws-amplify-react": "^2.3.0",
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.1.17",
     "gatsby-image": "^2.0.29",
@@ -36,6 +38,7 @@
   "scripts": {
     "dev": "gatsby develop -o",
     "develop": "gatsby develop",
+    "start": "npx gatsby develop",
     "build": "gatsby build",
     "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
     "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",

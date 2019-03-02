@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "ifedmypet-amplify-20190301223219-authRole",
+            "UnauthRoleArn": "arn:aws:iam::228732469808:role/ifedmypet-amplify-20190301223219-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::228732469808:role/ifedmypet-amplify-20190301223219-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "ifedmypet-amplify-20190301223219-deployment",
+            "UnauthRoleName": "ifedmypet-amplify-20190301223219-unauthRole",
+            "StackName": "ifedmypet-amplify-20190301223219",
+            "StackId": "arn:aws:cloudformation:us-west-2:228732469808:stack/ifedmypet-amplify-20190301223219/edd26800-3cb4-11e9-bcff-0aceeffcea3c"
+        },
+        "categories": {
+            "auth": {
+                "cognito89b3f065": {}
+            }
+        }
+    }
+}

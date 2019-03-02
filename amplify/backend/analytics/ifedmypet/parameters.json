@@ -1,0 +1,20 @@
+{
+    "appName": "ifedmypet",
+    "roleName": "pinpointLambdaRole48c0cc53",
+    "cloudWatchPolicyName": "cloudWatchPolicy48c0cc53",
+    "pinpointPolicyName": "pinpointPolicy48c0cc53",
+    "authPolicyName": "pinpoint_amplify_48c0cc53",
+    "unauthPolicyName": "pinpoint_amplify_48c0cc53",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
