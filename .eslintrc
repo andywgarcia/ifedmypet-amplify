@@ -32,14 +32,15 @@
       }
     ],
     "no-unused-expressions": [
-      1, {
+      1,
+      {
         "allowTaggedTemplates": true
       }
     ],
     "no-console": 0,
     "no-use-before-define": 0,
     "no-underscore-dangle": 0,
-    "linebreak-style": 0,
+    "linebreak-style": 2,
     "consistent-return": 0,
     "import": 0,
     "func-names": 0,
@@ -67,16 +68,8 @@
         "allowTemplateLiterals": true
       }
     ],
-    "indent": ["error", 2, {"SwitchCase": 1}],
-    "prettier/prettier": [
-      "error",
-      {
-        "trailingComma": "es5",
-        "semi": false,
-        "singleQuote": true,
-        "printWidth": 120
-      }
-    ],
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "prettier/prettier": ["error", {}],
     "jsx-a11y/href-no-hash": "off",
     "jsx-a11y/anchor-is-valid": [
       "warn",
