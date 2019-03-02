@@ -2,7 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import tw from 'tailwind.macro';
 import { Parallax } from 'react-spring/renderprops-addons.cjs';
-import Amplify, { Analytics } from 'aws-amplify';
+import Amplify from 'aws-amplify';
+import { withAuthenticator } from 'aws-amplify-react';
+import awsmobile from '../aws-exports';
 
 // Components
 import Layout from '../components/Layout';
@@ -19,6 +21,8 @@ import About from '../views/About';
 import Contact from '../views/Contact';
 
 import avatar from '../images/avatar.jpg';
+
+Amplify.configure(awsmobile);
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -136,4 +140,4 @@ const Index = () => (
   </>
 );
 
-export default Index;
+export default withAuthenticator(Index, true);
